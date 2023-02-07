@@ -33,6 +33,8 @@ Hello ${firstName} , your surname is ${surname} and you are ${
 
 
 let userMood = prompt("How are you ?");
+
+
 if(mood === "ok") {
 	alert("all right, it's great");
 } else if(userMood  === "fine") {
@@ -47,6 +49,8 @@ if(mood === "ok") {
 
 
 let userCash = +prompt("How much money do you have ?");
+
+
 if (userCash >300 && userCash <= 500 && userCash !=NaN) {
 	alert("i take a bit");
 } else if(userCash > 500 && userCash <= 1000 && userCash !=NaN) {
